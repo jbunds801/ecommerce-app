@@ -1,12 +1,9 @@
-# React + Vite
+Project: E-Commerce Product Listing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this assignment I focused on learning React and how to use {useState} and how to pass props from parent to child components. I put the components as their own files, and passed info from one to the next one using props and importing the parent file into the child. I learned how to set up what you are passing in App.jsx -> functio App() first using {useState}, then passing them to the next component when you set props in the "return <div>", then passing into the next component using another "return <div>" that maps the items and passes it to the next component, where the DOM structure is created.
 
-Currently, two official plugins are available:
+I also added a drop down to filter items using a function with an event and using useState. I also added a button for add to cart the is not currently functional, but I could add functions to it later.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I also gave each .jsx file it's own corresponding .css file and linked them appropriately. I did not use any Bootstrap on this project, and used media queries and other CSS properties to make the website responsive. Again I designed a simple logo for the styling as well. I used images to make each product unique and put them in a "box" to keep them separated and easy to navigate.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Other elements I would add in the future would be other types of products/pages with filtering and combining filters, a nav bar, and a cart.

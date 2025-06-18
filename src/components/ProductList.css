@@ -1,0 +1,28 @@
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.filter {
+    display: grid;
+    grid-auto-columns: 50%;
+    justify-content: center;
+}
+
+.dropdown {
+    font-size: 1em;
+}
+
+@media (min-width: 1850px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .product-list {
+        grid-template-columns: 1fr;
+        /* 1 column on small screens */
+    }
+}

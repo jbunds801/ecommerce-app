@@ -1,0 +1,23 @@
+:root {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 375;
+  background-color: rgb(223, 239, 239);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header-img {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 1300px) {
+  .header-img {
+    width: 100%;
+  }
+}
